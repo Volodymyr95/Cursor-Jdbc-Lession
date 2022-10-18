@@ -19,6 +19,10 @@ public final class SqlQueries {
         UPDATE user SET age=? WHERE id =?
         """;
 
+    public static final String SELECT_ALL_USERS = """
+        SELECT * FROM user
+        """;
+
 
     private SqlQueries() {
     }
